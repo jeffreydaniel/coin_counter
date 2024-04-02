@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Load the model
-model = YOLO('final_model_last.pt')
+model = YOLO('model.pt') # Change model if necessary
 
 # Define a dictionary to map class labels to their corresponding coin values
 coin_values = {
