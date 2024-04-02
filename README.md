@@ -30,15 +30,23 @@ Published in Journal of Emerging Technologies and Innovative Research
 The dataset was obtained from Kaggle's Indian Coin Denomination Dataset (ICDD), comprising images of One (1), Two (2), Five (5), Ten (10), and Twenty (20) Rupee coins. In total, there are 30 different coins sampled, including 7 one rupee coins, 4 two rupee coins, 9 five rupee coins, 6 ten rupee coins, and 4 twenty rupee coins.
 
 ## Annotation
+![Image](Images/1.png)
+
 The data annotation process utilized Roboflow, a popular tool known for its accuracy and ease of use. Roboflow’s Smart Polygon tool facilitated the annotation process.
 
 ## Generation of Dataset
+![Image](Images/2.png)
+
 Following annotation, the dataset underwent preprocessing and augmentation using Roboflow's tools. The resultant dataset was exported in the YOLOv8 format.
 
 ## Training the Model
+![Image](Images/3.png)
+
 The model was trained using the YOLOv8 Medium model, offering both speed and accuracy. Training spanned 75 epochs, after which the 'best.pt' file was downloaded for inference.
 
 ## Testing
+![Image](Images/4.png)
+
 Initial testing yielded an accuracy range of 85-90%. Subsequent re-training led to higher accuracies.
 
 ## Deployment
