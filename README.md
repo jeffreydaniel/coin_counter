@@ -19,7 +19,7 @@ Published in International Conference on Circuit, Power and Computing Technologi
 Authors: Sarika K, Madhavi G, Deepchanda C, Janvi S
 Published in Journal of Emerging Technologies and Innovative Research
 
-## Modules
+## Process
 - Data Collection
 - Annotation
 - Generating Dataset
